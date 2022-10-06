@@ -1,0 +1,4 @@
+/Users/mauro/Dropbox/GitHub/C/cmake-build-debug/CMakeFiles/data_file.dir
+/Users/mauro/Dropbox/GitHub/C/cmake-build-debug/CMakeFiles/Parallaxes.dir
+/Users/mauro/Dropbox/GitHub/C/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/mauro/Dropbox/GitHub/C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
