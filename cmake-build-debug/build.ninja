@@ -46,8 +46,8 @@ cmake_ninja_workdir = /Users/mauro/Dropbox/GitHub/C/cmake-build-debug/
 
 build cmake_object_order_depends_target_data_file: phony || CMakeFiles/data_file.dir
 
-build CMakeFiles/data_file.dir/data_file.c.o: C_COMPILER__data_file_Debug /Users/mauro/Dropbox/GitHub/C/data_file.c || cmake_object_order_depends_target_data_file
-  DEP_FILE = CMakeFiles/data_file.dir/data_file.c.o.d
+build CMakeFiles/data_file.dir/main.c.o: C_COMPILER__data_file_Debug /Users/mauro/Dropbox/GitHub/C/main.c || cmake_object_order_depends_target_data_file
+  DEP_FILE = CMakeFiles/data_file.dir/main.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/data_file.dir
   OBJECT_FILE_DIR = CMakeFiles/data_file.dir
@@ -60,7 +60,7 @@ build CMakeFiles/data_file.dir/data_file.c.o: C_COMPILER__data_file_Debug /Users
 #############################################
 # Link the executable data_file
 
-build data_file: C_EXECUTABLE_LINKER__data_file_Debug CMakeFiles/data_file.dir/data_file.c.o
+build data_file: C_EXECUTABLE_LINKER__data_file_Debug CMakeFiles/data_file.dir/main.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/data_file.dir
   POST_BUILD = :
