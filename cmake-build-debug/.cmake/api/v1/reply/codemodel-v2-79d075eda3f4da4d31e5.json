@@ -15,8 +15,7 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0,
-						1
+						0
 					]
 				}
 			],
@@ -31,8 +30,7 @@
 					"name" : "untitled",
 					"targetIndexes" : 
 					[
-						0,
-						1
+						0
 					]
 				}
 			],
@@ -40,15 +38,8 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "Parallaxes::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Parallaxes-Debug-c81aad13df98758fbd04.json",
-					"name" : "Parallaxes",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
 					"id" : "data_file::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-data_file-Debug-15b57ff6c43a5985a8dc.json",
+					"jsonFile" : "target-data_file-Debug-0b35b58fe5cc6642f885.json",
 					"name" : "data_file",
 					"projectIndex" : 0
 				}

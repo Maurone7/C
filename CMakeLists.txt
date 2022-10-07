@@ -3,5 +3,4 @@ project(untitled C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(data_file data_file.c)
-add_executable(Parallaxes Parallaxes.c)
+add_executable(data_file data_file.c parallaxes.cpp)
