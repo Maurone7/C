@@ -1,9 +1,8 @@
 #include <stdio.h>
+#include "import-data.c"
 
-double new_luminosities_LOG[] = {};
 int main()
 {
-   printf("Hello World!");
-   return 0;
+   import_data();
 }
 

@@ -8,7 +8,7 @@
 
 int import_data()
 {
-    char source_list_barenfeld_2016[106];
+    char source_list_barenfeld_2016[106] = {};
 
     char source[100];
     char *filename = "/Users/mauro/Dropbox/GitHub/C/Barenfeld Table 1.txt";
@@ -33,17 +33,16 @@ int import_data()
 
         }
         index++;
-        strcpy(source_list_barenfeld_2016, element);
-        printf("%d %s \n", index, source_list_barenfeld_2016[22]);
+        source_list_barenfeld_2016[index] = *element;
+        printf("%d %c \n", index, source_list_barenfeld_2016[22]);
         line ++;
         /* printf("%d \n", line); */
     }
     fclose(file);
 
-    source_list_barenfeld_2016[2] = "J15354856-2958551";
     for (int loop_value = 0; loop_value < 58; loop_value++)
     {
-        printf("%d %s \n", loop_value, source_list_barenfeld_2016[loop_value]);
+        printf("%d %c \n", loop_value, source_list_barenfeld_2016[loop_value]);
     }
     printf("%lu \n", (sizeof source_list_barenfeld_2016 )/(sizeof source_list_barenfeld_2016[0]));
 
